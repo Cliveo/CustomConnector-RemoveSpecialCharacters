@@ -1,4 +1,6 @@
-﻿public abstract class ScriptBase
+﻿using Microsoft.Extensions.Logging;
+
+public abstract class ScriptBase
 {
     // Context object
     public IScriptContext Context  { get; set; }
